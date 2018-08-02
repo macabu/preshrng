@@ -2,7 +2,7 @@
 name = "preshrng"
 version = "0.1.0"
 authors = ["Matheus Macabu <macabu.matheus@gmail.com>"]
-description = "A random number generator using Jeff Preshing's algorithm"
+description = "A unique random number generator using Jeff Preshing's algorithm."
 keywords = ["preshrng", "rng", "random", "generator", "preshing"]
 license = "Unlicense"
 repository = "https://github.com/macabu/preshrng.git"
