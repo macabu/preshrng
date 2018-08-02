@@ -1,0 +1,26 @@
+language: rust
+
+rust:
+  - stable
+  - beta
+  - nightly
+
+os:
+  - linux
+  - osx
+
+matrix:
+  allow_failures:
+    - rust: nightly
+
+env:
+  - ARCH=i686 RUST_BACKTRACE=1
+  - ARCH=x86_64 RUST_BACKTRACE=1
+
+script:
+  - cargo clean
+  - cargo build --verbose --all
+  - cargo test --verbose --all
+
+notifications:
+  email: false

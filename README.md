@@ -1,6 +1,6 @@
 # preshrng
 
-[![Current Crates.io Version](https://img.shields.io/crates/v/preshrng.svg)](https://crates.io/crates/preshrng)
+[![Build Status](https://travis-ci.org/macabu/preshrng.svg?branch=master)](https://travis-ci.org/macabu/preshrng) [![Current Crates.io Version](https://img.shields.io/crates/v/preshrng.svg)](https://crates.io/crates/preshrng)
 
 ## Acknowledgements
 
